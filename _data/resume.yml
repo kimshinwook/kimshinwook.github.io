@@ -1,0 +1,216 @@
+# =============================================================================
+# Resume Data - Edit this file to customize your portfolio
+# =============================================================================
+
+profile:
+  name: "Shinwook Kim"
+  title: "Electro-Optical System Engineer"
+  location: "Heilbronn, Baden-Württemberg, Germany"
+  email: "shinuk.kim@gmail.com"
+  phone: "" # Optional
+  summary: |
+    Experienced Electro-Optical System (EOS) engineer with expertise in
+    satellite payload development, optical engineering, and image processing.
+    Strong background in signal processing and computer vision applications.
+  linkedin: "https://www.linkedin.com/in/shinwook"
+  scholar: "https://scholar.google.com/citations?user=YVbgwV0AAAAJ&hl=ko"
+  github: "" # Optional - add your GitHub URL if available
+
+# =============================================================================
+# Experience - Add your work history
+# =============================================================================
+experience:
+  - company: "Korea Aerospace Research Institute (KARI)"
+    position: "Senior Researcher" # Update with your actual position
+    location: "Daejeon, South Korea"
+    period: "2018 - Present" # Update with actual dates
+    current: true
+    description: |
+      Electro-Optical System development for satellite payloads.
+    highlights:
+      - "Satellite payload optical system design and development"
+      - "Image quality analysis and calibration"
+      - "System integration and testing"
+    # logo: "kari.png" # Add logo to assets/images/ if desired
+
+  - company: "Samsung Electronics"
+    position: "Engineer" # Update with your actual position
+    location: "Suwon, Gyeonggi-do, South Korea"
+    period: "Start - End" # Update with actual dates
+    current: false
+    description: |
+      Camera module development and image processing.
+    highlights:
+      - "Auto-focus system development"
+      - "Image signal processing algorithm development"
+      - "Camera module testing and validation"
+    # logo: "samsung.png" # Add logo to assets/images/ if desired
+
+# =============================================================================
+# Education
+# =============================================================================
+education:
+  - school: "Chung-Ang University (중앙대학교)"
+    degree: "Ph.D./M.S." # Update: Ph.D., M.S., or combined
+    major: "Signal and Communication Systems"
+    location: "Seoul, South Korea"
+    period: "2013 - 2018"
+    thesis: "Neuromorphic Processor-based Vision Camera for Autonomous Vehicle"
+    advisor: "" # Add advisor name if desired
+    gpa: "" # Optional
+
+  # Add undergraduate education if desired
+  # - school: "University Name"
+  #   degree: "B.S."
+  #   major: "Major"
+  #   location: "Location"
+  #   period: "Start - End"
+
+# =============================================================================
+# Skills - Customize based on your expertise
+# =============================================================================
+skills:
+  categories:
+    - name: "Optical Engineering"
+      items:
+        - "Optical System Design"
+        - "Image Quality Analysis"
+        - "Radiometric Calibration"
+        - "MTF Analysis"
+        - "Aberration Analysis"
+
+    - name: "Programming"
+      items:
+        - "Python"
+        - "MATLAB"
+        - "C/C++"
+        - "Image Processing"
+        - "Deep Learning"
+
+    - name: "Tools & Software"
+      items:
+        - "Zemax"
+        - "CodeV"
+        - "OpenCV"
+        - "TensorFlow"
+        - "PyTorch"
+
+    - name: "Domain Expertise"
+      items:
+        - "Satellite Payload"
+        - "Remote Sensing"
+        - "Computer Vision"
+        - "Signal Processing"
+        - "Camera Systems"
+
+# =============================================================================
+# Projects / Patents - Highlight key work
+# =============================================================================
+projects:
+  - title: "Satellite Electro-Optical Payload Development"
+    period: "2018 - Present"
+    description: |
+      Design and development of high-resolution electro-optical systems
+      for Earth observation satellites.
+    technologies:
+      - "Optical Design"
+      - "System Integration"
+      - "Image Processing"
+    # link: "" # Add project link if available
+    # image: "project1.jpg" # Add image to assets/images/ if desired
+
+  - title: "Auto-Focus System Development"
+    period: "At Samsung Electronics"
+    description: |
+      Development of advanced auto-focus algorithms for smartphone cameras.
+    technologies:
+      - "Phase Detection AF"
+      - "Contrast Detection AF"
+      - "Hybrid AF"
+    # link: ""
+
+  - title: "Traffic Sign Recognition System"
+    period: "Research Project"
+    description: |
+      Deep learning-based traffic sign recognition system for autonomous vehicles.
+    technologies:
+      - "Deep Learning"
+      - "Computer Vision"
+      - "Embedded Systems"
+    # link: ""
+
+  - title: "Lane Detection System"
+    period: "Research Project"
+    description: |
+      Real-time lane detection algorithm for advanced driver assistance systems.
+    technologies:
+      - "Image Processing"
+      - "Machine Learning"
+      - "ADAS"
+    # link: ""
+
+# =============================================================================
+# Publications - Academic achievements
+# =============================================================================
+publications:
+  summary:
+    patents: "30+"
+    papers: "10+"
+    citations: "" # Add citation count if desired
+
+  # Featured publications - add your key papers here
+  featured:
+    - title: "Example Paper Title 1"
+      authors: "S. Kim, et al."
+      journal: "Journal of Optical Engineering"
+      year: "2023"
+      link: "" # DOI or URL
+
+    - title: "Example Paper Title 2"
+      authors: "S. Kim, et al."
+      journal: "Conference Name"
+      year: "2022"
+      link: ""
+
+  # Note: Full publication list available on Google Scholar
+  scholar_note: "See Google Scholar for complete publication list"
+
+# =============================================================================
+# Certifications - Professional certifications
+# =============================================================================
+certifications:
+  - name: "Certification Name"
+    issuer: "Issuing Organization"
+    date: "2023"
+    credential_id: "" # Optional
+    link: "" # Optional verification link
+
+  # Add more certifications as needed
+  # - name: ""
+  #   issuer: ""
+  #   date: ""
+
+# =============================================================================
+# Awards & Honors
+# =============================================================================
+awards:
+  - title: "Award Name"
+    issuer: "Organization"
+    date: "2023"
+    description: "" # Optional description
+
+  # Add more awards as needed
+  # - title: ""
+  #   issuer: ""
+  #   date: ""
+
+# =============================================================================
+# Languages
+# =============================================================================
+languages:
+  - name: "Korean"
+    level: "Native"
+  - name: "English"
+    level: "Professional"
+  - name: "German"
+    level: "Basic" # Update based on your level

@@ -1,0 +1,36 @@
+# Site settings
+title: Shinwook Kim - Portfolio
+description: >-
+  Electro-Optical System Engineer | Korea Aerospace Research Institute
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Social links
+social:
+  linkedin: https://www.linkedin.com/in/shinwook
+  scholar: https://scholar.google.com/citations?user=YVbgwV0AAAAJ&hl=ko
+  email: shinuk.kim@gmail.com
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,40 @@
+<section id="skills" class="section">
+  <div class="container">
+    <div class="card">
+      <h2 class="section-title">
+        <i class="fas fa-code"></i>
+        Skills
+      </h2>
+
+      <div class="skills-grid">
+        {% for category in site.data.resume.skills.categories %}
+        <div class="skill-category">
+          <h3 class="skill-category-title">{{ category.name }}</h3>
+          <div class="skill-tags">
+            {% for skill in category.items %}
+            <span class="skill-tag">{{ skill }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {% if site.data.resume.languages and site.data.resume.languages.size > 0 %}
+      <div class="languages-section">
+        <h3 class="skill-category-title">
+          <i class="fas fa-language"></i>
+          Languages
+        </h3>
+        <div class="languages-list">
+          {% for lang in site.data.resume.languages %}
+          <div class="language-item">
+            <span class="language-name">{{ lang.name }}</span>
+            <span class="language-level">{{ lang.level }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

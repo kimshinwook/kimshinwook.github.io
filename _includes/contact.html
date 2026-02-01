@@ -1,0 +1,69 @@
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="card contact-card">
+      <h2 class="section-title">
+        <i class="fas fa-envelope"></i>
+        Get in Touch
+      </h2>
+
+      <p class="contact-intro">
+        Feel free to reach out for collaborations, research opportunities, or just to say hello!
+      </p>
+
+      <div class="contact-methods">
+        {% if site.data.resume.profile.email %}
+        <a href="mailto:{{ site.data.resume.profile.email }}" class="contact-method">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">{{ site.data.resume.profile.email }}</span>
+          </div>
+        </a>
+        {% endif %}
+
+        {% if site.data.resume.profile.linkedin %}
+        <a href="{{ site.data.resume.profile.linkedin }}" target="_blank" rel="noopener" class="contact-method">
+          <div class="contact-icon linkedin">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Connect with me</span>
+          </div>
+        </a>
+        {% endif %}
+
+        {% if site.data.resume.profile.scholar %}
+        <a href="{{ site.data.resume.profile.scholar }}" target="_blank" rel="noopener" class="contact-method">
+          <div class="contact-icon scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Google Scholar</span>
+            <span class="contact-value">View publications</span>
+          </div>
+        </a>
+        {% endif %}
+
+        {% if site.data.resume.profile.github and site.data.resume.profile.github != "" %}
+        <a href="{{ site.data.resume.profile.github }}" target="_blank" rel="noopener" class="contact-method">
+          <div class="contact-icon github">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">View projects</span>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+
+      <div class="contact-location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>{{ site.data.resume.profile.location }}</span>
+      </div>
+    </div>
+  </div>
+</section>

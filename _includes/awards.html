@@ -1,0 +1,45 @@
+{% if site.data.resume.awards and site.data.resume.awards.size > 0 %}
+{% assign has_valid_award = false %}
+{% for award in site.data.resume.awards %}
+  {% if award.title and award.title != "" and award.title != "Award Name" %}
+    {% assign has_valid_award = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_valid_award %}
+<section id="awards" class="section">
+  <div class="container">
+    <div class="card">
+      <h2 class="section-title">
+        <i class="fas fa-trophy"></i>
+        Awards & Honors
+      </h2>
+
+      <div class="awards-list">
+        {% for award in site.data.resume.awards %}
+        {% if award.title and award.title != "" and award.title != "Award Name" %}
+        <div class="award-item">
+          <div class="award-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="award-content">
+            <h3 class="award-title">{{ award.title }}</h3>
+            <p class="award-issuer">{{ award.issuer }}</p>
+            <span class="award-date">
+              <i class="fas fa-calendar-alt"></i>
+              {{ award.date }}
+            </span>
+            {% if award.description and award.description != "" %}
+            <p class="award-description">{{ award.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endif %}

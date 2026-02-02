@@ -279,6 +279,12 @@ body[data-lang="ko"] .lang-en {
     border-radius: 3px;
 }
 
+/* Allow double-height cards to show full content or fill available space */
+.bento-card.row-span-2 .scroll-container {
+    max-height: none;
+    /* Let it fill the card or expand */
+}
+
 /* Modal */
 .modal-overlay {
     position: fixed;

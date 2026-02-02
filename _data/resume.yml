@@ -289,6 +289,16 @@ patents:
       ko: "딥러닝 네트워크를 사용하여 비선형 관계를 분석함으로써 전정색(Panchromatic) 밴드 이미지를 기반으로 다중 대역 이미지를 생성하는 시스템."
   
   - title:
+      en: "Multi-band image generation system... for optical satellite imagery (optical satellite imagery)"
+      ko: "딥러닝을 이용한 광학 위성영상 다중 대역 이미지 생성 시스템 및 그 방법"
+    number: "KR 10-2553797"
+    date: "2023-07-02"
+    url: "https://patents.google.com/patent/KR102553797B1"
+    description:
+      en: "Relates to an optical satellite image multi-band image generation system and method using deep learning."
+      ko: "딥러닝을 이용한 광학 위성영상 다중 대역 이미지 생성 시스템 및 그 방법에 관한 기술."
+
+  - title:
       en: "Driving assistance apparatus and image processing method"
       ko: "주행 보조 장치 및 이미지 처리 방법"
     number: "KR 10-2274544"
@@ -339,6 +349,16 @@ patents:
       ko: "특징 및 내용 패턴 벡터를 사용하여 교통 표지판을 효율적으로 인식하고 위치를 파악하는 뉴로모픽 시스템."
 
   - title:
+      en: "SYSTEM AND METHOD FOR DETECTING A ROAD STATE"
+      ko: "노면 상태 감지 시스템 및 방법"
+    number: "KR 10-2011008"
+    date: "2019-08-08"
+    url: "https://patents.google.com/patent/KR102011008"
+    description:
+      en: "System detecting road surface condition using acoustic sensing and feature vector comparison."
+      ko: "음향 감지 및 특징 벡터 비교를 이용해 노면 상태를 감지하는 시스템."
+
+  - title:
       en: "Driver state sensing system, method and vehicle"
       ko: "운전자 상태 감지 시스템, 방법 및 차량"
     number: "US 10,369,926"
@@ -347,7 +367,37 @@ patents:
     description:
       en: "System using single-channel image sensing to extract shape points and motion vectors for detecting driver drowsiness."
       ko: "단일 채널 영상 센싱을 사용하여 형상 포인트와 모션 벡터를 추출, 운전자의 졸음을 감지하는 시스템."
-    
+
+  - title:
+      en: "DEVICE FOR ADJUSTING THE FLASHING POINT OF A CAMERA..."
+      ko: "카메라 자동 초점 조절장치 및 방법 (독일 특허)"
+    number: "DE 10 2017 223 559"
+    date: "2019-03-14"
+    url: "https://patents.google.com/patent/DE102017223559A1"
+    description:
+      en: "Apparatus and method for adjusting the focus of a camera using neuromorphic hardware."
+      ko: "뉴로모픽 하드웨어를 이용한 카메라 자동 초점 조절 장치 및 방법."
+
+  - title:
+      en: "Vehicle control apparatus and vehicle control method"
+      ko: "차량 제어 장치 및 차량 제어 방법"
+    number: "KR 10-1956727"
+    date: "2019-03-05"
+    url: "https://patents.google.com/patent/KR101956727"
+    description:
+      en: "Determines inappropriate driving patterns and driver carelessness to warn the driver."
+      ko: "부적절한 주행 패턴과 운전자 부주의를 감지하여 경고하는 차량 제어 기술."
+
+  - title:
+      en: "DRIVER STATE SENSING SYSTEM..."
+      ko: "운전자 상태 감지 시스템, 운전자 상태 감지 방법..."
+    number: "KR 10-1950476"
+    date: "2019-02-14"
+    url: "https://patents.google.com/patent/KR101950476"
+    description:
+      en: "Extracts shape points from driver image to detect drowsiness."
+      ko: "운전자 영상에서 형상 점을 추출하여 졸음 상태를 감지하는 시스템."
+
   - title:
       en: "Apparatus for adjusting focus of camera"
       ko: "카메라 자동 초점 조절장치 및 방법"
@@ -357,6 +407,126 @@ patents:
     description:
       en: "Autofocus apparatus comparing focus parameter values of current and previous frames using neuromorphic hardware to adjust lens position."
       ko: "뉴로모픽 하드웨어를 사용하여 현재 및 이전 프레임의 초점 파라미터 값을 비교해 렌즈 위치를 조절하는 자동 초점 장치."
+
+  - title:
+      en: "Apparatus for adjusting auto focus of camera..."
+      ko: "카메라 자동 초점 조절장치 및 방법"
+    number: "KR 10-1909022"
+    date: "2018-10-11"
+    url: "https://patents.google.com/patent/KR101909022"
+    description:
+      en: "Auto-focus adjustment using neuromorphic edge pattern vectors."
+      ko: "뉴로모픽 엣지 패턴 벡터를 이용한 자동 초점 조절 장치."
+
+  - title:
+      en: "SYSTEM AND METHOD FOR RECOGNIZING A LANE"
+      ko: "차선 인식 시스템 및 방법"
+    number: "KR 10-1878490"
+    date: "2018-07-09"
+    url: "https://patents.google.com/patent/KR101878490"
+    description:
+      en: "Lane recognition using neuromorphic system and pattern vectors."
+      ko: "뉴로모픽 시스템과 패턴 벡터를 이용한 차선 인식 기술."
+
+  - title:
+      en: "Apparatus for recognizing traffic sign and method thereof"
+      ko: "교통 표지판 인식장치 및 방법"
+    number: "KR 10-1834778"
+    date: "2018-02-27"
+    url: "https://patents.google.com/patent/KR101834778"
+    description:
+      en: "Traffic sign recognition using neuromorphic feature and content vectors."
+      ko: "뉴로모픽 특징 및 내용 벡터를 활용한 교통 표지판 인식 장치."
+
+  - title:
+      en: "APPARATUS AND METHOD FOR GENERATING NONUNIFORMITY CORRECTION DATA..."
+      ko: "보정데이터 생성장치 및 이의 보정데이터 생성방법, 그리고 적외선 카메라"
+    number: "KR 10-1827810"
+    date: "2018-02-05"
+    url: "https://patents.google.com/patent/KR101827810"
+    description:
+      en: "Generates correction data for IR cameras based on internal temperature."
+      ko: "내부 온도에 기반하여 적외선 카메라의 보정 데이터를 생성하는 장치 및 방법."
+
+  - title:
+      en: "APPARATUS FOR AUTO FOCUSING OF CAMERA"
+      ko: "카메라의 자동 초점 조절 장치"
+    number: "KR 10-1558981"
+    date: "2015-10-02"
+    url: "https://patents.google.com/patent/KR101558981"
+    description:
+      en: "Auto focusing based on temperature sensing and lens movement compensation."
+      ko: "온도 감지 및 렌즈 이동 보상을 기반으로 하는 자동 초점 조절 장치."
+
+  - title:
+      en: "METHOD FOR AUTO FOCUSING OF CAMERA"
+      ko: "카메라의 자동 초점 조절 방법"
+    number: "KR 10-1558982"
+    date: "2015-10-02"
+    url: "https://patents.google.com/patent/KR101558982"
+    description:
+      en: "Method for compensating lens focus shift due to temperature changes."
+      ko: "온도 변화에 따른 렌즈 초점 이동을 보상하는 자동 초점 방법."
+
+  - title:
+      en: "METHOD FOR CORRECTING TIME VARIANT DEFECT OF INFRARED DETECTOR"
+      ko: "적외선 검출기의 시변결점 보상 방법"
+    number: "KR 10-1450258"
+    date: "2014-10-06"
+    url: "https://patents.google.com/patent/KR101450258"
+    description:
+      en: "Detects and corrects time-variant defect pixels in IR detectors."
+      ko: "적외선 검출기의 시변 결함 픽셀을 감지하고 보정하는 방법."
+
+  - title:
+      en: "APPARATUS FOR CORRECTING TIME VARIANT DEFECT OF INFRARED DETECTOR"
+      ko: "적외선 검출기의 시변결점 보상 장치"
+    number: "KR 10-1450259"
+    date: "2014-10-06"
+    url: "https://patents.google.com/patent/KR101450259"
+    description:
+      en: "Apparatus for correcting time-variant defects using recursive average images."
+      ko: "재귀적 평균 영상을 사용하여 시변 결함을 보정하는 장치."
+
+  - title:
+      en: "Apparatus for compensating infra-red image"
+      ko: "적외선 영상 보정 방법"
+    number: "KR 10-1418110"
+    date: "2014-07-03"
+    url: "https://patents.google.com/patent/KR101418110"
+    description:
+      en: "Compensates IR image unevenness based on steering mechanism direction prediction."
+      ko: "조향 장치의 방향 예측을 기반으로 적외선 영상의 불균일을 보정하는 방법."
+
+  - title:
+      en: "Apparatus for compensating infra-red image"
+      ko: "적외선 영상 보정 장치"
+    number: "KR 10-1407723"
+    date: "2014-06-09"
+    url: "https://patents.google.com/patent/KR101407723"
+    description:
+      en: "System to compensate IR image based on flight object manipulation info."
+      ko: "비행체의 조작 정보를 기반으로 적외선 영상을 보정하는 장치."
+
+  - title:
+      en: "Adaptive multimedia decoding device and method for scalable satellite broadcasting"
+      ko: "스케일러블 위성방송의 적응적 재생장치 및 방법"
+    number: "KR 10-1355975"
+    date: "2014-01-21"
+    url: "https://patents.google.com/patent/KR101355975"
+    description:
+      en: "Decodes video streams received on different transmission bands with independent operation modules."
+      ko: "서로 다른 전송 대역에서 수신된 비디오 스트림을 독립적인 모듈로 디코딩하는 장치."
+
+  - title:
+      en: "METHOD AND APPARATUS FOR MONITORING DRIVER STATUS"
+      ko: "운전자 상태 모니터링 방법 및 장치"
+    number: "KR 10-2017-0030487"
+    date: "2017-03-10"
+    url: "https://patents.google.com/patent/KR1020170030487"
+    description:
+      en: "Monitors driver status by weighting driver/vehicle states based on environment."
+      ko: "환경에 따라 운전자/차량 상태에 가중치를 두어 운전자 상태를 모니터링하는 기술."
 
 skills:
   - category:

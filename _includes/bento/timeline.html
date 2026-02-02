@@ -28,9 +28,9 @@
                 </p>
                 <hr style="border-color:var(--border-color); margin: 15px 0;">
 
-                <div style="font-size: 0.9rem; line-height: 1.6; white-space: pre-wrap;">
-                    <span class="lang-en">{{ job.description.en }}</span>
-                    <span class="lang-ko">{{ job.description.ko }}</span>
+                <div style="font-size: 0.9rem; line-height: 1.6;">
+                    <span class="lang-en" style="white-space: pre-wrap; display: block;">{{ job.description.en }}</span>
+                    <span class="lang-ko" style="white-space: pre-wrap; display: block;">{{ job.description.ko }}</span>
                 </div>
 
                 {% if job.url %}

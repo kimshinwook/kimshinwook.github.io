@@ -164,6 +164,19 @@ a:hover {
     color: var(--text-muted);
 }
 
+.title-highlight {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.bento-card:hover .title-highlight {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 /* Profile Image - Smart Crop */
 .profile-img-container {
     width: 100%;

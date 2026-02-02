@@ -6,7 +6,7 @@
     <div class="scroll-container">
         {% for pub in site.data.resume.publications %}
         <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pub-{{ forloop.index }}')">
-            <h4 class="text-sm">{{ pub.title }}</h4>
+            <h4 class="text-sm title-highlight">{{ pub.title }}</h4>
             <p class="text-xs text-muted">{{ pub.journal }} • {{ pub.date }}</p>
             <div id="pub-{{ forloop.index }}" class="modal-data" style="display:none;">
                 <h3>{{ pub.title }}</h3>

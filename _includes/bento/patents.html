@@ -7,8 +7,8 @@
         {% for patent in site.data.resume.patents %}
         <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pat-{{ forloop.index }}')">
             <h4 class="text-sm">
-                <span class="lang-en">{{ patent.title.en }}</span>
-                <span class="lang-ko">{{ patent.title.ko }}</span>
+                <span class="lang-en title-highlight">{{ patent.title.en }}</span>
+                <span class="lang-ko title-highlight">{{ patent.title.ko }}</span>
             </h4>
             <p class="text-xs text-muted">{{ patent.number }} • {{ patent.date }}</p>
             <div id="pat-{{ forloop.index }}" class="modal-data" style="display:none;">

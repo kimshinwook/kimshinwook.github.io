@@ -4,7 +4,7 @@
         <span class="lang-ko">최신 연구</span>
     </h3>
     <div class="scroll-container">
-        {% for pub in site.data.resume.publications limit:3 %}
+        {% for pub in site.data.resume.publications %}
         <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pub-{{ forloop.index }}')">
             <h4 class="text-sm">{{ pub.title }}</h4>
             <p class="text-xs text-muted">{{ pub.journal }} • {{ pub.date }}</p>

@@ -4,7 +4,7 @@
         <span class="lang-ko">특허</span>
     </h3>
     <div class="scroll-container">
-        {% for patent in site.data.resume.patents limit:3 %}
+        {% for patent in site.data.resume.patents %}
         <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pat-{{ forloop.index }}')">
             <h4 class="text-sm">
                 <span class="lang-en">{{ patent.title.en }}</span>

@@ -33,6 +33,7 @@ experience:
     location:
       en: "Daejeon, South Korea"
       ko: "대한민국 대전"
+    url: "https://www.kari.re.kr"
     summary:
       en: "Satellite Payload Development Division. Development for electro-optical system (EOS) and Infrared (IR) camera."
       ko: "위성연구본부 위성탑재체연구부. 전자광학 시스템(EOS) 및 적외선(IR) 카메라 개발."
@@ -43,6 +44,17 @@ experience:
         ko: "광학 성능 측정 및 분석"
       - en: "CCD & IR detector characterization"
         ko: "CCD 및 적외선 검출기 특성 분석"
+    description:
+      en: |
+        ▶ Development for electro-optical system (EOS) and Infrared (IR) camera
+        - Electro-optical system assembly integration and test
+        - Optical performance measurement
+        - CCD & IR detector
+      ko: |
+        ▶ 전자광학 시스템(EOS) 및 적외선(IR) 카메라 개발
+        - 전자광학 시스템 조립 및 시험 (AIT)
+        - 광학 성능 측정 및 분석
+        - CCD 및 적외선 검출기 특성 분석
 
   - company:
       en: "Samsung Electronics"
@@ -55,12 +67,20 @@ experience:
     location:
       en: "Gyeonggi, South Korea"
       ko: "경기"
+    url: "https://www.samsung.com"
     summary:
       en: "Automotive Electronics Development Team. Machine learning for ADAS & Autonomous driving vehicle."
       ko: "전장사업팀 전장개발그룹. ADAS 및 자율주행 차량을 위한 머신러닝 개발."
     highlights:
       - en: "Deep Neural Network design for road vehicle and pedestrian detection (VD / PD)"
         ko: "차량 및 보행자 검출(VD/PD)을 위한 심층 신경망 설계"
+    description:
+      en: |
+        ▶ Machine learning for ADAS & Autonomous driving vehicle
+        - Deep Neural Network design for road vehicle and pedestrian detection (VD / PD)
+      ko: |
+        ▶ ADAS 및 자율주행 차량을 위한 머신러닝 개발
+        - 차량 및 보행자 검출(VD/PD)을 위한 심층 신경망 설계
 
   - company:
       en: "Mando Hella Electronics"
@@ -73,6 +93,7 @@ experience:
     location:
       en: "Seoul Incheon Metropolitan Area"
       ko: "서울/인천"
+    url: "https://www.hlklemove.com"
     summary:
       en: "Software project management for ADAS Front Camera Module (FCM)."
       ko: "ADAS 전방 카메라 모듈(FCM) 소프트웨어 프로젝트 관리."
@@ -83,6 +104,32 @@ experience:
         ko: "프로젝트 관리: 비용 산정, 리소스 계획, 리스크 분석"
       - en: "Technical collaboration with Global OEMs"
         ko: "글로벌 OEM과의 기술 협력 지원"
+    description:
+      en: |
+        ▶ Software project management for ADAS Front Camera Module (FCM) and other advanced development project
+        ▶ Support technical collaboration with Global OEMs and within internal/external development parties
+        ▶ Lead software development project to:
+        - Review software requirement specifications
+        - Estimate costs and workload of activities
+        - Plan operating resources and technical equipment for development
+        - Monitor and control process
+        - Conduct (software-related) risk analysis
+        - Control problem and change management
+        - Create status report
+        ▶ Review software development work package and activities
+        ▶ Review software architecture as a software project manager
+      ko: |
+        ▶ ADAS 전방 카메라 모듈(FCM) 및 선행 개발 프로젝트 소프트웨어 프로젝트 관리
+        ▶ 글로벌 OEM 및 내외부 개발 파트너와의 기술 협력 지원
+        ▶ 소프트웨어 개발 프로젝트 리드:
+        - 소프트웨어 요구사항 명세서 검토
+        - 비용 및 리소스 산정, 개발 장비 계획 수립
+        - 프로세스 모니터링 및 통제
+        - 리스크 분석 수행
+        - 문제 및 변경 관리 통제
+        - 현황 보고서 작성
+        ▶ 소프트웨어 개발 워크 패키지 및 활동 검토
+        ▶ 소프트웨어 프로젝트 관리자로서 소프트웨어 아키텍처 검토
 
   - company:
       en: "LIG Nex1"
@@ -95,6 +142,7 @@ experience:
     location:
       en: "Yongin, Gyeonggi, South Korea"
       ko: "경기 용인"
+    url: "https://www.lignex1.com"
     summary:
       en: "Development for Electro-Optical/Infrared (EO/IR) Camera on Aircraft / UAV platform."
       ko: "항공기/무인기 탑재용 전자광학/적외선(EO/IR) 카메라 개발."
@@ -105,6 +153,21 @@ experience:
         ko: "임베디드 RTOS 소프트웨어 개발 (디바이스 드라이버, 애플리케이션)"
       - en: "Hardware Reliability Test (MIL-STD-810G, MIL-STD-461F)"
         ko: "하드웨어 신뢰성 시험 (MIL-STD-810G, MIL-STD-461F)"
+    description:
+      en: |
+        ▶ Development for Electro-Optical/Infrared (EO/IR) Camera on Aircraft / UAV platform
+        ▶ Development of Digital Image Processing Algorithms for image quality enhancement
+        ▶ Development of Embedded RTOS software (Device drivers and S/W applications)
+        ▶ Software Test : Code Sonar, DT10, QAC for DO-178B, MISRA-C
+        ▶ Hardware Reliability Test : MIL-STD-810G and MIL-STD-461F, etc.
+        ▶ Performance measurement and evaluation of the EO/IR camera
+      ko: |
+        ▶ 항공기/무인기 탑재용 전자광학/적외선(EO/IR) 카메라 개발
+        ▶ 영상 화질 향상을 위한 디지털 영상 처리 알고리즘 개발
+        ▶ 임베디드 RTOS 소프트웨어 개발 (디바이스 드라이버 및 응용 프로그램)
+        ▶ 소프트웨어 테스트: Code Sonar, DT10, QAC (DO-178B, MISRA-C 준수)
+        ▶ 하드웨어 신뢰성 시험: MIL-STD-810G, MIL-STD-461F 등
+        ▶ EO/IR 카메라 성능 측정 및 평가
 
 education:
   - institution:

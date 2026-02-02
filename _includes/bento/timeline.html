@@ -5,16 +5,42 @@
     </h3>
     <div class="scroll-container">
         {% for job in site.data.resume.experience %}
-        <div class="timeline-item">
+        <div class="timeline-item" style="cursor: pointer;" onclick="openModal('job-{{ forloop.index }}')">
             <h4 class="text-sm">
-                <span class="lang-en">{{ job.company.en }}</span>
-                <span class="lang-ko">{{ job.company.ko }}</span>
+                <span class="lang-en title-highlight">{{ job.company.en }}</span>
+                <span class="lang-ko title-highlight">{{ job.company.ko }}</span>
             </h4>
             <p class="text-xs text-muted">{{ job.startDate }} - {{ job.endDate }}</p>
             <p class="text-xs" style="margin-top:4px;">
                 <span class="lang-en">{{ job.position.en }}</span>
                 <span class="lang-ko">{{ job.position.ko }}</span>
             </p>
+
+            <!-- Hidden Data for Modal -->
+            <div id="job-{{ forloop.index }}" class="modal-data" style="display:none;">
+                <h3>
+                    <span class="lang-en">{{ job.company.en }}</span>
+                    <span class="lang-ko">{{ job.company.ko }}</span>
+                </h3>
+                <p class="text-muted">{{ job.startDate }} - {{ job.endDate }} |
+                    <span class="lang-en">{{ job.position.en }}</span>
+                    <span class="lang-ko">{{ job.position.ko }}</span>
+                </p>
+                <hr style="border-color:var(--border-color); margin: 15px 0;">
+
+                <div style="font-size: 0.9rem; line-height: 1.6; white-space: pre-wrap;">
+                    <span class="lang-en">{{ job.description.en }}</span>
+                    <span class="lang-ko">{{ job.description.ko }}</span>
+                </div>
+
+                {% if job.url %}
+                <a href="{{ job.url }}" target="_blank" class="tag"
+                    style="margin-top:20px; background:var(--accent); display:inline-block; font-size: 0.9rem;">
+                    <span class="lang-en">Visit Website <i class="fas fa-external-link-alt"></i></span>
+                    <span class="lang-ko">홈페이지 방문 <i class="fas fa-external-link-alt"></i></span>
+                </a>
+                {% endif %}
+            </div>
         </div>
         {% endfor %}
 

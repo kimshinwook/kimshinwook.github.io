@@ -1,0 +1,26 @@
+<div class="bento-card col-span-2 glass flex-col">
+    <h3 style="margin-bottom:16px;">
+        <span class="lang-en">Patents</span>
+        <span class="lang-ko">특허</span>
+    </h3>
+    <div class="scroll-container">
+        {% for patent in site.data.resume.patents limit:3 %}
+        <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pat-{{ forloop.index }}')">
+            <h4 class="text-sm">
+                <span class="lang-en">{{ patent.title.en }}</span>
+                <span class="lang-ko">{{ patent.title.ko }}</span>
+            </h4>
+            <p class="text-xs text-muted">{{ patent.number }} • {{ patent.date }}</p>
+            <div id="pat-{{ forloop.index }}" class="modal-data" style="display:none;">
+                <h3>
+                    <span class="lang-en">{{ patent.title.en }}</span>
+                    <span class="lang-ko">{{ patent.title.ko }}</span>
+                </h3>
+                <p class="text-muted">{{ patent.number }} • {{ patent.date }}</p>
+                <hr style="border-color:var(--border-color); margin: 15px 0;">
+                <p>Full patent details are available via the patent number search.</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

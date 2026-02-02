@@ -1,0 +1,35 @@
+<div class="bento-card row-span-2 glass flex-col">
+    <h3 style="margin-bottom:16px;">
+        <span class="lang-en">Experience</span>
+        <span class="lang-ko">경력</span>
+    </h3>
+    <div class="scroll-container">
+        {% for job in site.data.resume.experience %}
+        <div class="timeline-item">
+            <h4 class="text-sm">
+                <span class="lang-en">{{ job.company.en }}</span>
+                <span class="lang-ko">{{ job.company.ko }}</span>
+            </h4>
+            <p class="text-xs text-muted">{{ job.startDate }} - {{ job.endDate }}</p>
+            <p class="text-xs" style="margin-top:4px;">
+                <span class="lang-en">{{ job.position.en }}</span>
+                <span class="lang-ko">{{ job.position.ko }}</span>
+            </p>
+        </div>
+        {% endfor %}
+
+        <h3 style="margin:24px 0 16px 0;">
+            <span class="lang-en">Education</span>
+            <span class="lang-ko">학력</span>
+        </h3>
+        {% for edu in site.data.resume.education %}
+        <div class="timeline-item">
+            <h4 class="text-sm">
+                <span class="lang-en">{{ edu.institution.en }}</span>
+                <span class="lang-ko">{{ edu.institution.ko }}</span>
+            </h4>
+            <p class="text-xs text-muted">{{ edu.studyType.en }} in {{ edu.area.en }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

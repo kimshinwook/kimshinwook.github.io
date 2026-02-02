@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% seo %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body data-lang="en"> <!-- Default to EN (JS will update) -->
+
+    {% include bento/navbar.html %}
+
+    <main class="bento-container">
+        <!-- Row 1 & 2 -->
+        {% include bento/profile-card.html %}
+        {% include bento/about-card.html %}
+
+        <!-- Timeline spans multiple rows -->
+        {% include bento/timeline.html %}
+
+        <!-- Row 3 -->
+        {% include bento/skills.html %}
+
+        <!-- Row 4 -->
+        {% include bento/publications.html %}
+
+        <!-- Row 5 -->
+        {% include bento/projects.html %}
+
+        <!-- Row 6 -->
+        {% include bento/patents.html %}
+    </main>
+
+    <!-- Modal Container -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+
+</html>

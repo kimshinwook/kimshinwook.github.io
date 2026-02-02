@@ -1,216 +1,317 @@
-# =============================================================================
-# Resume Data - Edit this file to customize your portfolio
-# =============================================================================
-
-profile:
-  name: "Shinwook Kim"
-  title: "Electro-Optical System Engineer"
-  location: "Heilbronn, Baden-Württemberg, Germany"
+basics:
+  name:
+    en: "Shinwook Kim"
+    ko: "김신욱"
+  label:
+    en: "Electro-Optical System Engineer"
+    ko: "전자광학 시스템 엔지니어"
+  image: "/assets/images/profile.jpg"
   email: "shinuk.kim@gmail.com"
-  phone: "" # Optional
-  summary: |
-    Experienced Electro-Optical System (EOS) engineer with expertise in
-    satellite payload development, optical engineering, and image processing.
-    Strong background in signal processing and computer vision applications.
-  linkedin: "https://www.linkedin.com/in/shinwook"
-  scholar: "https://scholar.google.com/citations?user=YVbgwV0AAAAJ&hl=ko"
-  github: "" # Optional - add your GitHub URL if available
-
-# =============================================================================
-# Experience - Add your work history
-# =============================================================================
-experience:
-  - company: "Korea Aerospace Research Institute (KARI)"
-    position: "Senior Researcher" # Update with your actual position
-    location: "Daejeon, South Korea"
-    period: "2018 - Present" # Update with actual dates
-    current: true
-    description: |
-      Electro-Optical System development for satellite payloads.
-    highlights:
-      - "Satellite payload optical system design and development"
-      - "Image quality analysis and calibration"
-      - "System integration and testing"
-    # logo: "kari.png" # Add logo to assets/images/ if desired
-
-  - company: "Samsung Electronics"
-    position: "Engineer" # Update with your actual position
-    location: "Suwon, Gyeonggi-do, South Korea"
-    period: "Start - End" # Update with actual dates
-    current: false
-    description: |
-      Camera module development and image processing.
-    highlights:
-      - "Auto-focus system development"
-      - "Image signal processing algorithm development"
-      - "Camera module testing and validation"
-    # logo: "samsung.png" # Add logo to assets/images/ if desired
-
-# =============================================================================
-# Education
-# =============================================================================
-education:
-  - school: "Chung-Ang University (중앙대학교)"
-    degree: "Ph.D./M.S." # Update: Ph.D., M.S., or combined
-    major: "Signal and Communication Systems"
-    location: "Seoul, South Korea"
-    period: "2013 - 2018"
-    thesis: "Neuromorphic Processor-based Vision Camera for Autonomous Vehicle"
-    advisor: "" # Add advisor name if desired
-    gpa: "" # Optional
-
-  # Add undergraduate education if desired
-  # - school: "University Name"
-  #   degree: "B.S."
-  #   major: "Major"
-  #   location: "Location"
-  #   period: "Start - End"
-
-# =============================================================================
-# Skills - Customize based on your expertise
-# =============================================================================
-skills:
-  categories:
-    - name: "Optical Engineering"
-      items:
-        - "Optical System Design"
-        - "Image Quality Analysis"
-        - "Radiometric Calibration"
-        - "MTF Analysis"
-        - "Aberration Analysis"
-
-    - name: "Programming"
-      items:
-        - "Python"
-        - "MATLAB"
-        - "C/C++"
-        - "Image Processing"
-        - "Deep Learning"
-
-    - name: "Tools & Software"
-      items:
-        - "Zemax"
-        - "CodeV"
-        - "OpenCV"
-        - "TensorFlow"
-        - "PyTorch"
-
-    - name: "Domain Expertise"
-      items:
-        - "Satellite Payload"
-        - "Remote Sensing"
-        - "Computer Vision"
-        - "Signal Processing"
-        - "Camera Systems"
-
-# =============================================================================
-# Projects / Patents - Highlight key work
-# =============================================================================
-projects:
-  - title: "Satellite Electro-Optical Payload Development"
-    period: "2018 - Present"
-    description: |
-      Design and development of high-resolution electro-optical systems
-      for Earth observation satellites.
-    technologies:
-      - "Optical Design"
-      - "System Integration"
-      - "Image Processing"
-    # link: "" # Add project link if available
-    # image: "project1.jpg" # Add image to assets/images/ if desired
-
-  - title: "Auto-Focus System Development"
-    period: "At Samsung Electronics"
-    description: |
-      Development of advanced auto-focus algorithms for smartphone cameras.
-    technologies:
-      - "Phase Detection AF"
-      - "Contrast Detection AF"
-      - "Hybrid AF"
-    # link: ""
-
-  - title: "Traffic Sign Recognition System"
-    period: "Research Project"
-    description: |
-      Deep learning-based traffic sign recognition system for autonomous vehicles.
-    technologies:
-      - "Deep Learning"
-      - "Computer Vision"
-      - "Embedded Systems"
-    # link: ""
-
-  - title: "Lane Detection System"
-    period: "Research Project"
-    description: |
-      Real-time lane detection algorithm for advanced driver assistance systems.
-    technologies:
-      - "Image Processing"
-      - "Machine Learning"
-      - "ADAS"
-    # link: ""
-
-# =============================================================================
-# Publications - Academic achievements
-# =============================================================================
-publications:
+  location:
+    en: "Heilbronn, Baden-Württemberg, Germany"
+    ko: "독일 바덴뷔르템베르크주 하일브론"
   summary:
-    patents: "30+"
-    papers: "10+"
-    citations: "" # Add citation count if desired
+    en: "Electro-optical System Engineer at Korea Aerospace Research Institute (KARI). Specialized in Electro-optical system integration, measurement, and AI-based image processing for satellite and automotive applications."
+    ko: "한국항공우주연구원(KARI)의 전자광학 시스템 엔지니어. 위성 및 자동차 분야의 전자광학 시스템 통합, 성능 측정, AI 기반 영상 처리 전문."
+  profiles:
+    - network: "LinkedIn"
+      username: "shinwook"
+      url: "https://www.linkedin.com/in/shinwook"
+    - network: "Google Scholar"
+      username: "Shinwook Kim"
+      url: "https://scholar.google.com/citations?user=YVbgwV0AAAAJ&hl=ko"
 
-  # Featured publications - add your key papers here
-  featured:
-    - title: "Example Paper Title 1"
-      authors: "S. Kim, et al."
-      journal: "Journal of Optical Engineering"
-      year: "2023"
-      link: "" # DOI or URL
+experience:
+  - company:
+      en: "Korea Aerospace Research Institute (KARI)"
+      ko: "한국항공우주연구원"
+    position:
+      en: "Senior Researcher"
+      ko: "선임연구원"
+    startDate: "2020-01"
+    endDate: "Present"
+    location:
+      en: "Daejeon, South Korea"
+      ko: "대한민국 대전"
+    summary:
+      en: "Satellite Payload Development Division. Development for electro-optical system (EOS) and Infrared (IR) camera."
+      ko: "위성연구본부 위성탑재체연구부. 전자광학 시스템(EOS) 및 적외선(IR) 카메라 개발."
+    highlights:
+      - en: "Electro-optical system assembly integration and test"
+        ko: "전자광학 시스템 조립 및 시험 (AIT)"
+      - en: "Optical performance measurement"
+        ko: "광학 성능 측정 및 분석"
+      - en: "CCD & IR detector characterization"
+        ko: "CCD 및 적외선 검출기 특성 분석"
 
-    - title: "Example Paper Title 2"
-      authors: "S. Kim, et al."
-      journal: "Conference Name"
-      year: "2022"
-      link: ""
+  - company:
+      en: "Samsung Electronics"
+      ko: "삼성전자"
+    position:
+      en: "Senior Engineer"
+      ko: "책임연구원"
+    startDate: "2018-01"
+    endDate: "2019-12"
+    location:
+      en: "Gyeonggi, South Korea"
+      ko: "경기"
+    summary:
+      en: "Automotive Electronics Development Team. Machine learning for ADAS & Autonomous driving vehicle."
+      ko: "전장사업팀 전장개발그룹. ADAS 및 자율주행 차량을 위한 머신러닝 개발."
+    highlights:
+      - en: "Deep Neural Network design for road vehicle and pedestrian detection (VD / PD)"
+        ko: "차량 및 보행자 검출(VD/PD)을 위한 심층 신경망 설계"
 
-  # Note: Full publication list available on Google Scholar
-  scholar_note: "See Google Scholar for complete publication list"
+  - company:
+      en: "Mando Hella Electronics"
+      ko: "만도헬라일렉트로닉스"
+    position:
+      en: "Senior Research Engineer"
+      ko: "선임연구원"
+    startDate: "2015-11"
+    endDate: "2017-12"
+    location:
+      en: "Seoul Incheon Metropolitan Area"
+      ko: "서울/인천"
+    summary:
+      en: "Software project management for ADAS Front Camera Module (FCM)."
+      ko: "ADAS 전방 카메라 모듈(FCM) 소프트웨어 프로젝트 관리."
+    highlights:
+      - en: "Review software architecture and requirement specifications"
+        ko: "소프트웨어 아키텍처 및 요구사항 명세서 검토"
+      - en: "Project management: Cost estimation, resource planning, risk analysis"
+        ko: "프로젝트 관리: 비용 산정, 리소스 계획, 리스크 분석"
+      - en: "Technical collaboration with Global OEMs"
+        ko: "글로벌 OEM과의 기술 협력 지원"
 
-# =============================================================================
-# Certifications - Professional certifications
-# =============================================================================
-certifications:
-  - name: "Certification Name"
-    issuer: "Issuing Organization"
-    date: "2023"
-    credential_id: "" # Optional
-    link: "" # Optional verification link
+  - company:
+      en: "LIG Nex1"
+      ko: "LIG넥스원"
+    position:
+      en: "Senior Research Engineer"
+      ko: "선임연구원"
+    startDate: "2010-01"
+    endDate: "2015-11"
+    location:
+      en: "Yongin, Gyeonggi, South Korea"
+      ko: "경기 용인"
+    summary:
+      en: "Development for Electro-Optical/Infrared (EO/IR) Camera on Aircraft / UAV platform."
+      ko: "항공기/무인기 탑재용 전자광학/적외선(EO/IR) 카메라 개발."
+    highlights:
+      - en: "Development of Digital Image Processing Algorithms (Auto-focus, Auto-exposure, NUC)"
+        ko: "디지털 영상 처리 알고리즘 개발 (자동 초점, 자동 노출, 비균일 보정)"
+      - en: "Embedded RTOS software development (Device drivers, Applications)"
+        ko: "임베디드 RTOS 소프트웨어 개발 (디바이스 드라이버, 애플리케이션)"
+      - en: "Hardware Reliability Test (MIL-STD-810G, MIL-STD-461F)"
+        ko: "하드웨어 신뢰성 시험 (MIL-STD-810G, MIL-STD-461F)"
 
-  # Add more certifications as needed
-  # - name: ""
-  #   issuer: ""
-  #   date: ""
+education:
+  - institution:
+      en: "Chung-Ang University"
+      ko: "중앙대학교"
+    area:
+      en: "Signals and Communication Systems"
+      ko: "신호 및 통신 시스템"
+    studyType:
+      en: "Ph.D."
+      ko: "박사"
+    startDate: "2013"
+    endDate: "2018"
+    description:
+      en: "Dissertation: A Study on Vision Camera System based on the Neuromorphic Processor for Autonomous Driving Vehicle"
+      ko: "학위논문: 자율주행 자동차를 위한 뉴로모픽 프로세서 기반 비전 카메라 시스템 연구"
 
-# =============================================================================
-# Awards & Honors
-# =============================================================================
-awards:
-  - title: "Award Name"
-    issuer: "Organization"
-    date: "2023"
-    description: "" # Optional description
+  - institution:
+      en: "Chung-Ang University"
+      ko: "중앙대학교"
+    area:
+      en: "Signals and Communication Systems"
+      ko: "신호 및 통신 시스템"
+    studyType:
+      en: "M.Eng."
+      ko: "석사"
+    startDate: "2008"
+    endDate: "2010"
+    description:
+      en: "Thesis: A study on the active wideband noise control system"
+      ko: "학위논문: 능동 광대역 소음 제어 시스템에 관한 연구"
 
-  # Add more awards as needed
-  # - title: ""
-  #   issuer: ""
-  #   date: ""
+  - institution:
+      en: "Chung-Ang University"
+      ko: "중앙대학교"
+    area:
+      en: "Electrical and Electronics Engineering"
+      ko: "전기전자공학부"
+    studyType:
+      en: "B.Eng."
+      ko: "학사"
+    startDate: "2002"
+    endDate: "2008"
 
-# =============================================================================
-# Languages
-# =============================================================================
-languages:
-  - name: "Korean"
-    level: "Native"
-  - name: "English"
-    level: "Professional"
-  - name: "German"
-    level: "Basic" # Update based on your level
+projects:
+  - name:
+      en: "KOMPSAT-7A Satellite EOS Integration"
+      ko: "다목적실용위성 7A호 전자광학카메라 개발"
+    description:
+      en: "Development of Electro-optical system and IRFPU. Dispatched researcher to Germany."
+      ko: "전자광학카메라 및 IRFPU 개발 담당. 독일 파견 연구 수행."
+    startDate: "2024-08"
+    endDate: "Present"
+    keywords: ["Satellite", "EOS", "Integration"]
+    
+  - name:
+      en: "KOMPSAT-7 Satellite EOS Integration"
+      ko: "다목적실용위성 7호 전자광학카메라 개발"
+    description:
+      en: "Integration and Alignment of Satellite Electro-optical System."
+      ko: "위성탑재체 전자광학카메라 개발, 조립 및 정렬."
+    startDate: "2021-07"
+    endDate: "2025-12"
+    url: "https://www.youtube.com/watch?v=MdljBBrCS8o"
+
+  - name:
+      en: "KOMPSAT-3/3A Image Calibration"
+      ko: "다목적실용위성 3/3A호 영상 보정"
+    description:
+      en: "Satellite image noise reduction and color enhancement using deep learning."
+      ko: "딥러닝을 이용한 위성 영상 노이즈 제거 및 색상 향상 기술 개발."
+    startDate: "2020-01"
+    endDate: "2021-06"
+    url: "https://www.youtube.com/watch?v=zzSVoOJTCsE"
+
+  - name:
+      en: "ADAS Front Facing Camera (Samsung)"
+      ko: "ADAS 전방 카메라 (삼성전자)"
+    description:
+      en: "Deep learning based vehicle and pedestrian detection."
+      ko: "딥러닝 기반 차량 및 보행자 검출 기술 개발."
+    startDate: "2018-01"
+    endDate: "2019-12"
+    url: "https://www.youtube.com/watch?v=mqWjvLWjHZ8"
+
+  - name:
+      en: "Driver Monitoring System"
+      ko: "운전자 모니터링 시스템 (DMS)"
+    description:
+      en: "Machine vision system to detect driver's distraction and drowsiness using Neuromorphic processor."
+      ko: "뉴로모픽 프로세서를 활용한 운전자 부주의 및 졸음 감지 시스템."
+    startDate: "2016-10"
+    endDate: "2017-12"
+
+  - name:
+      en: "UAV FLIR Camera"
+      ko: "무인기용 전방 적외선 카메라"
+    description:
+      en: "Development of FLIR camera for UAVs to prevent collision and assist landing."
+      ko: "무인기 충돌 방지 및 이착륙 지원을 위한 FLIR 카메라 개발."
+    startDate: "2012-03"
+    endDate: "2015-11"
+    url: "https://www.youtube.com/watch?v=AVLVXKeWCvo"
+
+publications:
+  - title: "Rapid focus position detection in satellite electro-optical payloads using fully convolutional networks"
+    journal: "Optics Express"
+    date: "2024-11-18"
+    url: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-25-43947&id=563596"
+    summary:
+      en: "Proposes a deep learning-based fast-focus detection network (FFDNet) to rapidly identify optimal focus positions."
+      ko: "딥러닝 기반의 고속 초점 검출 네트워크(FFDNet)를 제안하여 위성 탑재체의 최적 초점 위치를 신속하게 식별."
+
+  - title: "Enhancing stability in Zernike coefficient computation through deep learning"
+    journal: "Proc. SPIE 13200"
+    date: "2024-11-01"
+    url: "https://doi.org/10.1117/12.3033855"
+
+  - title: "ZernikeNet: a deep learning-based approach for accurate Zernike coefficients calculation"
+    journal: "SPIE ASTRONOMICAL OPTICS"
+    date: "2023-10-04"
+
+  - title: "Suppressing effects of micro-vibration for MTF measurement"
+    journal: "Optics Express"
+    date: "2023-01-26"
+    url: "https://doi.org/10.1364/OE.481339"
+
+  - title: "Automotive Vision Camera System based on Neuromorphic Processor"
+    journal: "LAP LAMBERT Academic Publishing"
+    date: "2019-02-01"
+    url: "https://www.lap-publishing.com/catalog/details/store/de/book/978-620-2-05419-5/automotive-vision-camera-system-based-on-neuromorphic-processor"
+
+  - title: "Neuromorphic Hardware Accelerated Lane Detection System"
+    journal: "IEICE transactions on Information and Systems"
+    date: "2017-12-01"
+
+  - title: "Traffic Sign Recognition based on the Neuromorphic System"
+    journal: "IEICE transactions on Information and Systems"
+    date: "2017-09-07"
+
+  - title: "Nonuniformity correction scheme considering the effects of internal thermal stray light"
+    journal: "Optical Engineering (SPIE)"
+    date: "2017-01-11"
+
+patents:
+  - title:
+      en: "Multi-band image generation system and method using deep-learning network"
+      ko: "딥러닝을 이용한 광학 위성영상 다중 대역 이미지 생성 시스템 및 그 방법"
+    number: "US 12,361,665"
+    date: "2025-07-15"
+  
+  - title:
+      en: "Driving assistance apparatus and image processing method"
+      ko: "주행 보조 장치 및 이미지 처리 방법"
+    number: "KR 10-2274544"
+    date: "2021-07-01"
+
+  - title:
+      en: "System and method for sensing road surface condition"
+      ko: "노면 상태 감지 시스템 및 방법"
+    number: "US 10,676,096"
+    date: "2020-06-09"
+
+  - title:
+      en: "Driver state monitoring method and apparatus"
+      ko: "운전자 상태 모니터링 방법 및 장치"
+    number: "US 10,679,079"
+    date: "2020-06-09"
+
+  - title:
+      en: "System and method for recognizing a lane"
+      ko: "차선 인식 시스템 및 방법"
+    number: "US 10,460,179"
+    date: "2019-10-29"
+
+  - title:
+      en: "Apparatus and method for recognizing traffic signs"
+      ko: "교통 표지판 인식장치 및 방법"
+    number: "US 10,445,602"
+    date: "2019-10-15"
+
+  - title:
+      en: "Driver state sensing system, method and vehicle"
+      ko: "운전자 상태 감지 시스템, 방법 및 차량"
+    number: "US 10,369,926"
+    date: "2019-08-06"
+    
+  - title:
+      en: "Apparatus for adjusting focus of camera"
+      ko: "카메라 자동 초점 조절장치 및 방법"
+    number: "US 10,129,456"
+    date: "2018-11-13"
+
+skills:
+  - category:
+      en: "Core Competencies"
+      ko: "핵심 역량"
+    items:
+      - "Electro-Optical System Integration"
+      - "Infrared (IR) Camera Development"
+      - "Deep Learning & Computer Vision"
+      - "Neuromorphic Computing"
+  - category:
+      en: "Technical Skills"
+      ko: "기술 스택"
+    items:
+      - "Python / C / C++"
+      - "MATLAB"
+      - "Embedded Linux / RTOS"
+      - "PyTorch / TensorFlow"

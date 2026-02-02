@@ -1,0 +1,25 @@
+<div class="bento-card col-span-2 row-span-2" style="padding:0;">
+    <div class="profile-img-container">
+        <img src="{{ site.data.resume.basics.image | relative_url }}" alt="Profile" class="profile-img">
+    </div>
+    <div class="profile-overlay">
+        <h2>
+            <span class="lang-en">{{ site.data.resume.basics.name.en }}</span>
+            <span class="lang-ko">{{ site.data.resume.basics.name.ko }}</span>
+        </h2>
+        <p class="text-muted">
+            <span class="lang-en">{{ site.data.resume.basics.label.en }}</span>
+            <span class="lang-ko">{{ site.data.resume.basics.label.ko }}</span>
+        </p>
+        <div style="margin-top: 12px; display:flex; gap:10px;">
+            {% for profile in site.data.resume.basics.profiles %}
+            <a href="{{ profile.url }}" target="_blank" class="tag" style="background:var(--accent); color:white;">
+                <i class="fab fa-{{ profile.network | downcase }}"></i> {{ profile.network }}
+            </a>
+            {% endfor %}
+            <a href="mailto:{{ site.data.resume.basics.email }}" class="tag" style="background:var(--bg-dark);">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+        </div>
+    </div>
+</div>

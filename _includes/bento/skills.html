@@ -1,0 +1,19 @@
+<div class="bento-card col-span-2 glass">
+    <h3 style="margin-bottom:16px;">
+        <span class="lang-en">Skills</span>
+        <span class="lang-ko">기술 역량</span>
+    </h3>
+    {% for category in site.data.resume.skills %}
+    <div style="margin-bottom:12px;">
+        <h4 class="text-sm text-muted" style="margin-bottom:6px;">
+            <span class="lang-en">{{ category.category.en }}</span>
+            <span class="lang-ko">{{ category.category.ko }}</span>
+        </h4>
+        <div>
+            {% for skill in category.items %}
+            <span class="tag">{{ skill }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

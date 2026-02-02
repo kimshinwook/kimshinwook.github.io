@@ -1,0 +1,25 @@
+<div class="bento-card col-span-2 glass flex-col">
+    <h3 style="margin-bottom:16px;">
+        <span class="lang-en">Latest Research</span>
+        <span class="lang-ko">최신 연구</span>
+    </h3>
+    <div class="scroll-container">
+        {% for pub in site.data.resume.publications limit:3 %}
+        <div style="margin-bottom: 15px; cursor: pointer;" onclick="openModal('pub-{{ forloop.index }}')">
+            <h4 class="text-sm">{{ pub.title }}</h4>
+            <p class="text-xs text-muted">{{ pub.journal }} • {{ pub.date }}</p>
+            <div id="pub-{{ forloop.index }}" class="modal-data" style="display:none;">
+                <h3>{{ pub.title }}</h3>
+                <p class="text-muted">{{ pub.journal }} • {{ pub.date }}</p>
+                <hr style="border-color:var(--border-color); margin: 15px 0;">
+                <p>
+                    <span class="lang-en">{{ pub.summary.en | default: "No summary available." }}</span>
+                    <span class="lang-ko">{{ pub.summary.ko | default: "요약 내용이 없습니다." }}</span>
+                </p>
+                <a href="{{ pub.url }}" target="_blank" class="tag"
+                    style="margin-top:15px; background:var(--accent);">View Paper</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

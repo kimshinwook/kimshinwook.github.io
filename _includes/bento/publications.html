@@ -16,8 +16,10 @@
                     <span class="lang-en">{{ pub.summary.en | default: "No summary available." }}</span>
                     <span class="lang-ko">{{ pub.summary.ko | default: "요약 내용이 없습니다." }}</span>
                 </p>
-                <a href="{{ pub.url }}" target="_blank" class="tag"
-                    style="margin-top:15px; background:var(--accent);">View Paper</a>
+                <a href="{{ pub.url }}" target="_blank" class="tag" style="margin-top:15px; background:var(--accent);">
+                    <span class="lang-en">View Paper</span>
+                    <span class="lang-ko">논문 보기</span>
+                </a>
             </div>
         </div>
         {% endfor %}

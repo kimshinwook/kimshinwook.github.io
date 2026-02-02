@@ -215,39 +215,67 @@ publications:
     date: "2024-11-18"
     url: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-25-43947&id=563596"
     summary:
-      en: "Proposes a deep learning-based fast-focus detection network (FFDNet) to rapidly identify optimal focus positions."
-      ko: "딥러닝 기반의 고속 초점 검출 네트워크(FFDNet)를 제안하여 위성 탑재체의 최적 초점 위치를 신속하게 식별."
+      en: "Proposes a deep learning-based fast-focus detection network (FFDNet) to rapidly identify optimal focus positions throughout the entire assembly process of satellite electro-optical payloads."
+      ko: "위성 탑재체 조립 전 과정에서 최적 초점 위치를 신속하게 식별하기 위해 딥러닝 기반 고속 초점 검출 네트워크(FFDNet)를 제안."
 
   - title: "Enhancing stability in Zernike coefficient computation through deep learning"
     journal: "Proc. SPIE 13200"
     date: "2024-11-01"
     url: "https://doi.org/10.1117/12.3033855"
+    summary:
+      en: "Proposes a new training method for deep learning models to reliably output higher-order Zernike coefficients for polygonal mirrors."
+      ko: "딥러닝 모델이 다각형 거울에 대해 고차 제르니케 계수를 안정적으로 출력할 수 있도록 하는 새로운 학습 방법을 제안."
 
   - title: "ZernikeNet: a deep learning-based approach for accurate Zernike coefficients calculation"
     journal: "SPIE ASTRONOMICAL OPTICS"
     date: "2023-10-04"
+    summary:
+      en: "Presents ZernikeNet, a deep learning-based approach for accurate Zernike coefficients calculation in aspheric optical components."
+      ko: "비구면 광학 부품의 정확한 제르니케 계수 계산을 위한 딥러닝 기반 접근 방식인 ZernikeNet을 제시."
 
   - title: "Suppressing effects of micro-vibration for MTF measurement"
     journal: "Optics Express"
     date: "2023-01-26"
     url: "https://doi.org/10.1364/OE.481339"
+    summary:
+      en: "Proposes an ESF reconstruction network (ESFNet) to reconstruct the Edge Spread Function distorted by micro-vibration during MTF measurement."
+      ko: "MTF 측정 중 미세 진동으로 인해 왜곡된 Edge Spread Function(ESF)을 재구성하기 위한 ESFNet 제안."
 
   - title: "Automotive Vision Camera System based on Neuromorphic Processor"
     journal: "LAP LAMBERT Academic Publishing"
     date: "2019-02-01"
     url: "https://www.lap-publishing.com/catalog/details/store/de/book/978-620-2-05419-5/automotive-vision-camera-system-based-on-neuromorphic-processor"
+    summary:
+      en: "Describes automotive vision camera systems (lane detection, standard sign recognition) designed based on a neuromorphic processor."
+      ko: "뉴로모픽 프로세서를 기반으로 설계된 차량용 비전 카메라 시스템(차선 감지, 교통 표지판 인식)에 대해 기술."
 
   - title: "Neuromorphic Hardware Accelerated Lane Detection System"
     journal: "IEICE transactions on Information and Systems"
     date: "2017-12-01"
+    summary:
+      en: "Describes the development and implementation of a lane detection system accelerated by neuromorphic hardware, achieving high accuracy."
+      ko: "뉴로모픽 하드웨어로 가속화된 차선 감지 시스템의 개발 및 구현을 다루며, 높은 정확도를 달성."
 
   - title: "Traffic Sign Recognition based on the Neuromorphic System"
     journal: "IEICE transactions on Information and Systems"
     date: "2017-09-07"
+    summary:
+      en: "Proposes a traffic sign recognition (TSR) system based on neuromorphic hardware, achieving identification with low computational cost."
+      ko: "적은 연산량으로 교통 표지판을 식별할 수 있는 뉴로모픽 하드웨어 기반의 TSR 시스템 제안."
 
   - title: "Nonuniformity correction scheme considering the effects of internal thermal stray light"
     journal: "Optical Engineering (SPIE)"
     date: "2017-01-11"
+    summary:
+      en: "Proposes a stray light compensated nonuniformity correction (SLCNUC) method for IR cameras considering internal temperature changes."
+      ko: "적외선 카메라의 내부 온도 변화를 고려한 내부 열 잡광 보정 불균일 보정(SLCNUC) 방법 제안."
+
+  - title: "An Active Broadband Noise Control System based on the Multiband-Structured Delayless Subband Adaptive Filter"
+    journal: "Korean Institute of Electrical Engineers"
+    date: "2010-03-01"
+    summary:
+      en: "Proposes a new active noise control (ANC) system based on the multiband-structured delayless subband adaptive filter."
+      ko: "다중 대역 구조의 지연 없는 서브밴드 적응 필터를 기반으로 한 새로운 능동 소음 제어(ANC) 시스템 제안."
 
 patents:
   - title:
@@ -255,48 +283,80 @@ patents:
       ko: "딥러닝을 이용한 광학 위성영상 다중 대역 이미지 생성 시스템 및 그 방법"
     number: "US 12,361,665"
     date: "2025-07-15"
+    url: "https://patents.google.com/patent/US12361665"
+    description:
+      en: "System for generating a multi-band image based on a panchromatic band image by analyzing nonlinear relationships using a deep-learning network."
+      ko: "딥러닝 네트워크를 사용하여 비선형 관계를 분석함으로써 전정색(Panchromatic) 밴드 이미지를 기반으로 다중 대역 이미지를 생성하는 시스템."
   
   - title:
       en: "Driving assistance apparatus and image processing method"
       ko: "주행 보조 장치 및 이미지 처리 방법"
     number: "KR 10-2274544"
     date: "2021-07-01"
+    url: "https://patents.google.com/patent/KR102274544"
+    description:
+      en: "Driving assistance apparatus that identifies specific color/shape areas in peripheral images to recognize traffic signs."
+      ko: "주변 영상에서 특정 색상 및 모양 영역을 식별하여 교통 표지판을 인식하는 주행 보조 장치."
 
   - title:
       en: "System and method for sensing road surface condition"
       ko: "노면 상태 감지 시스템 및 방법"
     number: "US 10,676,096"
     date: "2020-06-09"
+    url: "https://patents.google.com/patent/US10676096"
+    description:
+      en: "System utilizing acoustic sensing of vehicle floor signals and Fourier transform analysis to identify road surface conditions."
+      ko: "차량 바닥의 음향 신호를 감지하고 푸리에 변환 분석을 통해 노면 상태를 식별하는 시스템."
 
   - title:
       en: "Driver state monitoring method and apparatus"
       ko: "운전자 상태 모니터링 방법 및 장치"
     number: "US 10,679,079"
     date: "2020-06-09"
+    url: "https://patents.google.com/patent/US10679079"
+    description:
+      en: "Apparatus that determines driver carelessness by assigning weighted values to driver and vehicle states based on ambient environment."
+      ko: "주변 환경에 따라 운전자 및 차량 상태에 가중치를 부여하여 운전자의 부주의 상태를 판별하는 장치."
 
   - title:
       en: "System and method for recognizing a lane"
       ko: "차선 인식 시스템 및 방법"
     number: "US 10,460,179"
     date: "2019-10-29"
+    url: "https://patents.google.com/patent/US10460179"
+    description:
+      en: "Neuromorphic system-based lane recognition unit that generates input vectors from image frames to identify lanes."
+      ko: "영상 프레임에서 입력 벡터를 생성하여 차선을 식별하는 뉴로모픽 시스템 기반 차선 인식 장치."
 
   - title:
       en: "Apparatus and method for recognizing traffic signs"
       ko: "교통 표지판 인식장치 및 방법"
     number: "US 10,445,602"
     date: "2019-10-15"
+    url: "https://patents.google.com/patent/US10445602"
+    description:
+      en: "Neuromorphic system using feature and content pattern vectors to efficiently recognize and locate traffic signs."
+      ko: "특징 및 내용 패턴 벡터를 사용하여 교통 표지판을 효율적으로 인식하고 위치를 파악하는 뉴로모픽 시스템."
 
   - title:
       en: "Driver state sensing system, method and vehicle"
       ko: "운전자 상태 감지 시스템, 방법 및 차량"
     number: "US 10,369,926"
     date: "2019-08-06"
+    url: "https://patents.google.com/patent/US10369926"
+    description:
+      en: "System using single-channel image sensing to extract shape points and motion vectors for detecting driver drowsiness."
+      ko: "단일 채널 영상 센싱을 사용하여 형상 포인트와 모션 벡터를 추출, 운전자의 졸음을 감지하는 시스템."
     
   - title:
       en: "Apparatus for adjusting focus of camera"
       ko: "카메라 자동 초점 조절장치 및 방법"
     number: "US 10,129,456"
     date: "2018-11-13"
+    url: "https://patents.google.com/patent/US10129456"
+    description:
+      en: "Autofocus apparatus comparing focus parameter values of current and previous frames using neuromorphic hardware to adjust lens position."
+      ko: "뉴로모픽 하드웨어를 사용하여 현재 및 이전 프레임의 초점 파라미터 값을 비교해 렌즈 위치를 조절하는 자동 초점 장치."
 
 skills:
   - category:

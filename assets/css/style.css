@@ -257,10 +257,16 @@ body[data-lang="ko"] .lang-en {
     box-shadow: 0 0 10px var(--accent-glow);
 }
 
-.scroll-container {
+/* Scroll Container Logic */
+.bento-card.flex-col .scroll-container {
+    flex: 1;
+    min-height: 0;
+    /* Critical for flex scrolling */
+    max-height: 300px;
+    /* Trigger scroll */
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: var(--border-color) transparent;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
     padding-right: 10px;
 }
 
@@ -269,7 +275,7 @@ body[data-lang="ko"] .lang-en {
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
-    background: var(--border-color);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 3px;
 }
 

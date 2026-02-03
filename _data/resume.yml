@@ -292,6 +292,7 @@ publications:
   - title: "ZernikeNet: a deep learning-based approach for accurate Zernike coefficients calculation"
     journal: "SPIE ASTRONOMICAL OPTICS"
     date: "2023-10-04"
+    url: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12677/126770S/ZernikeNet--a-deep-learning-based-approach-for-accurate-Zernike/10.1117/12.2676626.short?SSO=1"
     summary:
       en: "Presents ZernikeNet, a deep learning-based approach for accurate Zernike coefficients calculation in aspheric optical components."
       ko: "비구면 광학 부품의 정확한 제르니케 계수 계산을 위한 딥러닝 기반 접근 방식인 ZernikeNet을 제시."
@@ -315,6 +316,7 @@ publications:
   - title: "Neuromorphic Hardware Accelerated Lane Detection System"
     journal: "IEICE transactions on Information and Systems"
     date: "2017-12-01"
+    url: "https://search.ieice.org/bin/summary.php?id=e100-d_12_2871"
     summary:
       en: "Describes the development and implementation of a lane detection system accelerated by neuromorphic hardware, achieving high accuracy."
       ko: "뉴로모픽 하드웨어로 가속화된 차선 감지 시스템의 개발 및 구현을 다루며, 높은 정확도를 달성."
@@ -329,6 +331,7 @@ publications:
   - title: "Nonuniformity correction scheme considering the effects of internal thermal stray light"
     journal: "Optical Engineering (SPIE)"
     date: "2017-01-11"
+    url: "https://www.spiedigitallibrary.org/journals/Optical_Engineering/volume-56/issue-1/013104/Nonuniformity-correction-scheme-considering-the-effects-of-internal-thermal-stray/10.1117/1.OE.56.1.013104.full"
     summary:
       en: "Proposes a stray light compensated nonuniformity correction (SLCNUC) method for IR cameras considering internal temperature changes."
       ko: "적외선 카메라의 내부 온도 변화를 고려한 내부 열 잡광 보정 불균일 보정(SLCNUC) 방법 제안."
@@ -336,6 +339,7 @@ publications:
   - title: "An Active Broadband Noise Control System based on the Multiband-Structured Delayless Subband Adaptive Filter"
     journal: "Korean Institute of Electrical Engineers"
     date: "2010-03-01"
+    url: "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE01395558"
     summary:
       en: "Proposes a new active noise control (ANC) system based on the multiband-structured delayless subband adaptive filter."
       ko: "다중 대역 구조의 지연 없는 서브밴드 적응 필터를 기반으로 한 새로운 능동 소음 제어(ANC) 시스템 제안."

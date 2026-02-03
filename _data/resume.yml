@@ -356,7 +356,7 @@ patents:
       ko: "딥러닝 네트워크를 사용하여 비선형 관계를 분석함으로써 전정색(Panchromatic) 밴드 이미지를 기반으로 다중 대역 이미지를 생성하는 시스템."
   
   - title:
-      en: "Multi-band image generation system... for optical satellite imagery (optical satellite imagery)"
+      en: "Multi-band image generation system and method for optical satellite imagery using deep-learning network"
       ko: "딥러닝을 이용한 광학 위성영상 다중 대역 이미지 생성 시스템 및 그 방법"
     number: "KR 10-2553797"
     date: "2023-07-02"
@@ -436,7 +436,7 @@ patents:
       ko: "단일 채널 영상 센싱을 사용하여 형상 포인트와 모션 벡터를 추출, 운전자의 졸음을 감지하는 시스템."
 
   - title:
-      en: "DEVICE FOR ADJUSTING THE FLASHING POINT OF A CAMERA..."
+      en: "DEVICE FOR ADJUSTING THE FLASHING POINT OF A CAMERA AND CONTROL METHOD FOR THEM"
       ko: "카메라 자동 초점 조절장치 및 방법 (독일 특허)"
     number: "DE 10 2017 223 559"
     date: "2019-03-14"
@@ -456,7 +456,7 @@ patents:
       ko: "부적절한 주행 패턴과 운전자 부주의를 감지하여 경고하는 차량 제어 기술."
 
   - title:
-      en: "DRIVER STATE SENSING SYSTEM..."
+      en: "DRIVER STATE SENSING SYSTEM, DRIVER STATE SENSING METHOD, AND VEHICLE INCLUDING THEREOF"
       ko: "운전자 상태 감지 시스템, 운전자 상태 감지 방법..."
     number: "KR 10-1950476"
     date: "2019-02-14"
@@ -476,7 +476,7 @@ patents:
       ko: "뉴로모픽 하드웨어를 사용하여 현재 및 이전 프레임의 초점 파라미터 값을 비교해 렌즈 위치를 조절하는 자동 초점 장치."
 
   - title:
-      en: "Apparatus for adjusting auto focus of camera..."
+      en: "Apparatus for adjusting auto focus of camera and control method thereof"
       ko: "카메라 자동 초점 조절장치 및 방법"
     number: "KR 10-1909022"
     date: "2018-10-11"
@@ -506,7 +506,7 @@ patents:
       ko: "뉴로모픽 특징 및 내용 벡터를 활용한 교통 표지판 인식 장치."
 
   - title:
-      en: "APPARATUS AND METHOD FOR GENERATING NONUNIFORMITY CORRECTION DATA..."
+      en: "APPARATUS AND METHOD FOR GENERATING NONUNIFORMITY CORRECTION DATA, AND INFRARED CAMERA"
       ko: "보정데이터 생성장치 및 이의 보정데이터 생성방법, 그리고 적외선 카메라"
     number: "KR 10-1827810"
     date: "2018-02-05"

@@ -297,7 +297,7 @@ publications:
       en: "Presents ZernikeNet, a deep learning-based approach for accurate Zernike coefficients calculation in aspheric optical components."
       ko: "비구면 광학 부품의 정확한 제르니케 계수 계산을 위한 딥러닝 기반 접근 방식인 ZernikeNet을 제시."
 
-  - title: "Suppressing effects of micro-vibration for MTF measurement"
+  - title: "Suppressing effects of micro-vibration for MTF measurement of high-resolution electro-optical satellite payload in an optical alignment ground facility"
     journal: "Optics Express"
     date: "2023-01-26"
     url: "https://doi.org/10.1364/OE.481339"
@@ -457,7 +457,7 @@ patents:
 
   - title:
       en: "DRIVER STATE SENSING SYSTEM, DRIVER STATE SENSING METHOD, AND VEHICLE INCLUDING THEREOF"
-      ko: "운전자 상태 감지 시스템, 운전자 상태 감지 방법..."
+      ko: "운전자 상태 감지 시스템, 운전자 상태 감지 방법 및 운전자 감지 시스템을 장착한 차량"
     number: "KR 10-1950476"
     date: "2019-02-14"
     url: "https://patents.google.com/patent/KR101950476"

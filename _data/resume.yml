@@ -8,8 +8,8 @@ basics:
   image: "/assets/images/profile.jpg"
   email: "shinuk.kim@gmail.com"
   location:
-    en: "Heilbronn, Baden-Württemberg, Germany"
-    ko: "독일 바덴뷔르템베르크주 하일브론"
+    en: "Daejeon, South Korea"
+    ko: "대한민국 대전"
   summary:
     en: "Electro-optical System Engineer at Korea Aerospace Research Institute (KARI). Specialized in Electro-optical system integration, measurement, and AI-based image processing for satellite and automotive applications."
     ko: "한국항공우주연구원(KARI)의 전자광학 시스템 엔지니어. 위성 및 자동차 분야의 전자광학 시스템 통합, 성능 측정, AI 기반 영상 처리 전문."
@@ -217,8 +217,8 @@ projects:
       en: "KOMPSAT-7A Satellite EOS Integration"
       ko: "다목적실용위성 7A호 전자광학카메라 개발"
     description:
-      en: "Development of Electro-optical system and IRFPU. Dispatched researcher to Germany."
-      ko: "전자광학카메라 및 IRFPU 개발 담당. 독일 파견 연구 수행."
+      en: "Development of Electro-optical system and IRFPU. Germany dispatch (2025-03 to 2026-08) completed; returned to KARI in Daejeon."
+      ko: "전자광학카메라 및 IRFPU 개발 담당. 독일 파견(2025-03~2026-08) 후 귀국, 대전 한국항공우주연구원에서 연구 수행."
     startDate: "2024-08"
     endDate: "Present"
     keywords: ["Satellite", "EOS", "Integration"]
